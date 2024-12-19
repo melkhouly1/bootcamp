@@ -1,1 +1,3 @@
-# bootcamp
+# Bootcamp project
+
+## Getting started
