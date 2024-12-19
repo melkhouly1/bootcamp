@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your site description" />
+    <title>Your Page Title</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Bootcamp</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Main Content</h2>
+        <p>
+          This is the main content of your webpage. Replace this text with your
+          own content.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript here or link to external files -->
+    <script>
+      const DOB = "2000-06-04";
+      const birthDate = new Date(DOB);
+      const today = new Date();
+      const age = today.getFullYear() - birthDate.getFullYear();
+      // console.log("today: "+today.getFullYear());
+      // console.log("birthdate: "+birthDate.getFullYear());
+      // console.log(today.getFullYear() - birthDate.getFullYear());
+      const message = "My age is " + age;
+      // alert(message);
+      console.log(message);
+      console.log("Question 4");
+      console.log("Subtract 4 from 10. What is the result?");
+      const difference = 10 - 4;
+      console.log("The answer is " + difference);
+      console.log();
+
+      console.log("Question 5");
+      console.log("Multiply 6 by 7. What is the product?");
+      const product = 6 * 7;
+      console.log("The product is " + product);
+      console.log("Question 7");
+      console.log("Divide 20 by 5. What is the quotient?");
+      let quotient = 20 / 5;
+      console.log("The quotient is " + quotient);
+
+      let a = 20;
+      let b = 30;
+      // console.log("After swapping: a = " + a + ", b = " + b);
+      let temp = a;
+      a = b;
+      console.log("After swapping: a = " + a + ", b = " + b);
+      b = temp;
+      // console.log("After swapping: a = " + a + ", b = " + b);
+
+      let c = 3;
+      let d = c * c;
+      console.log("The square of " + c + " is " + d);
+
+      let counter = 0;
+      counter++;
+      console.log("Counter after increment: " + counter);
+
+      console.log("I am " + "concatenating two strings");
+      let firstName = "John";
+      let lastName = "Doe";
+      let fullName = firstName + " " + lastName;
+      console.log("Full Name: " + fullName);
+
+      let M = 7;
+      console.log("My favorite number is " + M);
+
+      let remainder = 3 % 10;
+      console.log(remainder);
+
+      let value = 8;
+      console.log(
+        "Doubling the value of " +
+          value +
+          " leads us to the answer: " +
+          value * 2
+      );
+
+      let original = 8;
+      let half = original / 2;
+      console.log("Our halved value is: " + half);
+
+      let width = 5;
+      let lenght = 10;
+      let area = width * lenght;
+      console.log("The area is: " + area);
+
+      let perimeter = 2 * width + 2 * lenght;
+      console.log("The perimeter is: " + perimeter);
+
+      // let tempC = 25;
+      // let tempF = (tempC * 9) / 5 + 32;
+      // console.log("The temperature in Farenheit is: " + tempF);
+
+      let tempF = 77;
+      let tempC = ((tempF - 32) * 5) / 9;
+      console.log("The temp is: " + tempC);
+
+      let var1 = 5;
+      let var2 = 10;
+      let var3 = 15;
+      let avg = (var1 + var2 + var3) / 3;
+      console.log("The avg is: " + avg);
+
+      let x = 15,
+        y = 20;
+      let larger = x > y ? x : y;
+      console.log("The larger number is: " + larger);
+
+      let radius = 7;
+      let pi = 3.14159;
+      let Circumfrence = pi * radius * 2;
+      console.log("Circumfrence is: " + Circumfrence);
+      let CircleArea = pi * radius * radius;
+      console.log("The area is: " + CircleArea);
+
+      let number = 15;
+      let Even = number % 2 === 0;
+      console.log(number + " is " + (Even ? "even" : "odd"));
+
+      // let numberC;
+      // console.log("Mystery value before assignment " + numberA);
+      let numberC = 5;
+      console.log("Mystery value after assignment " + numberC);
+
+      let grade = 95;
+      console.log("You scored: " + 95);
+
+      let principal = 1000;
+      let rate = 0.05;
+      let time = 2;
+      let interest = principal * rate * time;
+      console.log("Accumulated interest is: " + interest);
+    </script>
+  </body>
+</html>
