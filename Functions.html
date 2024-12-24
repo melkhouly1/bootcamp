@@ -43,69 +43,65 @@
 
     <!-- Add your JavaScript here or link to external files -->
     <script>
-        function sayHello() {
-          console.log("Hello world!");
+      function sayHello() {
+        console.log("Hello world!");
+      }
+      sayHello();
+
+      function addNumbers(x, y) {
+        let sum = x + y;
+        console.log("The sum of " + x + " and " + y + " is " + sum + ".");
+      }
+
+      addNumbers(5, 9);
+      addNumbers(-6, 10);
+
+      function multiplyNumbers(x, y) {
+        let product = x * y;
+        return `The product of ${x} and ${y} is ${product}`;
+      }
+      console.log(multiplyNumbers(5, 4));
+
+      function greetUser(name = "Guest") {
+        console.log(`Hello ${name}!`);
+      }
+      greetUser("Mazen");
+      greetUser();
+
+      add = (x, y) => x + y;
+
+      console.log(add(5, 9));
+      console.log(add(-6, 10));
+
+      function findMax(x, y, z) {
+        console.log(Math.max(x, y, z));
+      }
+
+      findMax(4, 5, 6);
+      findMax(7, 5, 4);
+      findMax(5, 8, 4);
+
+      function squareNumber(x) {
+        console.log(`The square of ${x} is ${x * x}`);
+      }
+      squareNumber(5);
+
+      function isEven(x) {
+        if (x % 2 === 0) {
+          console.log(`${x} is even`);
+        } else {
+          console.log(`${x} is odd`);
         }
-        sayHello();
-
-        function addNumbers(x, y) {
-          let sum = x + y;
-          console.log("The sum of " + x + " and " + y + " is " + sum + ".");
-        }
-
-        addNumbers(5, 9);
-        addNumbers(-6, 10);
-
-        function multiplyNumbers(x, y) {
-          let product = x * y;
-          return `The product of ${x} and ${y} is ${product}`;
-        }
-        console.log(multiplyNumbers(5, 4));
-
-        function greetUser(name = "Guest") {
-          console.log(`Hello ${name}!`);
-        }
-        greetUser("Mazen");
-        greetUser();
-
-        add = (x, y) => x + y;
-
-        console.log(add(5, 9));
-        console.log(add(-6, 10));
-
-        function findMax(x, y, z) {
-          console.log(Math.max(x, y, z));
-        }
-
-        findMax(4, 5, 6);
-        findMax(7, 5, 4);
-        findMax(5, 8, 4);
-
-        function squareNumber(x) {
-          console.log(`The square of ${x} is ${x * x}`);
-        }
-        squareNumber(5);
-
-        function isEven(x) {
-          if (x % 2 === 0) {
-            console.log(`${x} is even`);
-          } else {
-            console.log(`${x} is odd`);
-          }
-        }
-        isEven(4);
-        isEven(11);
+      }
+      isEven(4);
+      isEven(11);
 
       //   function factorial(x) {}
       //   factorial(5);
       //   factorial(2);
 
-      function isPrime(x){
-          if ()
-      }
-
       console.log(
-          "You are killing me with some of these questions, even AmazonQ is confusing me haha"
+        "You are killing me with some of these questions, even AmazonQ is confusing me haha"
       );
     </script>
   </body>

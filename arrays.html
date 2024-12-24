@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your site description" />
+    <title>arrays practice</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Bootcamp</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Main Content</h2>
+        <p>
+          This is the main content of your webpage. Replace this text with your
+          own content.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript here or link to external files -->
+    <script>
+      console.log("Arrays Practice");
+
+      myArray = ["Dark Purple", 24, true];
+      console.log(myArray);
+      console.log(myArray.length);
+
+      let animals = ["dog", "cat", "rabbit"];
+      console.log(animals);
+      console.log(animals[1]);
+      console.log(animals[2]);
+      console.log(animals[0]);
+      console.log(animals[4]);
+      animals.push("elephant");
+      console.log(animals);
+      animals.shift();
+      animals.unshift("lion");
+      console.log(animals);
+
+      let number = [1, 2, 3, 4, 5, 6];
+      console.log(number.length);
+
+      let cities = ["New York", "London", "Paris", "Tokyo"];
+      for (let i = 0; i < cities.length; i++) {
+        console.log(cities[i]);
+      }
+
+      let pets = ["dog", "fish", "parrot"];
+      console.log(pets.includes("cat"));
+
+      let array1 = [1, 2, 3];
+      let array2 = [4, 5, 6];
+      let array3 = [7, 8, 9];
+      let allItems = array1.concat(array2).concat(array3);
+      console.log(allItems);
+      console.log(allItems.length);
+      console.log(allItems[3]);
+    </script>
+  </body>
+</html>
