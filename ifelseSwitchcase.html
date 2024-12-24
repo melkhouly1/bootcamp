@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your site description" />
+    <title>If/else Switch/case Practice</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Bootcamp</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Main Content</h2>
+        <p>
+          This is the main content of your webpage. Replace this text with your
+          own content.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript here or link to external files -->
+    <script>
+      console.log("practice 2");
+
+      console.log("question 1");
+      let num = 5;
+
+      if (num > 0) {
+        console.log(`The number is positive`);
+      } else if (num < 0) {
+        console.log(`The number is negative`);
+      } else {
+        console.log(`The number is not positive or negative`);
+      }
+
+      let score = 78;
+      if (score >= 90) {
+        console.log("Your score is A");
+      } else if (score >= 80) {
+        console.log("Your score of is B");
+      } else if (score >= 60) {
+        console.log(`Your score of ${score} is C`);
+      } else if (score >= 70) {
+        console.log("Your score of is D");
+      } else {
+        console.log("Your score is F");
+      }
+
+      let day = 9;
+
+      switch (day) {
+        case 1:
+          console.log("Monday");
+          break;
+        case 2:
+          console.log("Teusday");
+          break;
+        case 3:
+          console.log("Wednesday");
+          break;
+        case 4:
+          console.log("Thursday");
+          break;
+        case 5:
+          console.log("Friday");
+          break;
+        case 6:
+          console.log("Saturday");
+          break;
+        case 7:
+          console.log("Sunday");
+          break;
+        default:
+          console.log("invalid input");
+          break;
+      }
+
+      let a = 25;
+      let b = 3;
+      let operation = "multiply";
+      switch (operation) {
+        case (operation = "subtract"):
+          console.log(a - b);
+          break;
+        case (operation = "add"):
+          console.log(a + b);
+          break;
+        case (operation = "multiply"):
+          console.log(a * b);
+          break;
+        case (operation = "divide"):
+          console.log(a / b);
+          break;
+        default:
+          console.log("Operation input must be valid");
+      }
+
+      console.log("Challenge questions");
+      let age = 17;
+      let citizenship = "USA";
+
+      if (age >= 18) {
+        if (citizenship === "USA") {
+          console.log("Person is eligible to vote in the USA");
+        } else {
+          console.log("Person must be USA citizen to vote");
+        }
+      } else {
+        console.log("person must be 18 or greater to vote");
+      }
+      console.log("Challenge Question 2");
+      console.log(
+        "What is your favorite fruit from the following: Mangos, Pinapples, or Strawberries"
+      );
+      fruit = "Mango";
+
+      switch (fruit) {
+        case "Mango":
+          console.log("Mangos are great! I love them");
+          break;
+        case "Pineapple":
+          console.log("Pineapples are okay, they sometimes go on Pizza");
+          break;
+        case "Strawberry":
+          console.log("Strawberries are red!");
+          break;
+        default:
+          console.log("You did not pick from the selection");
+      }
+    </script>
+  </body>
+</html>
