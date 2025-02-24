@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    background-color: #333333;
+}
+
+.navigation-menu {
+    float: left;
+    padding: 10px 20px;
+}
+
+.navigation-menu:hover {
+    background-color: rgb(121, 119, 101);
+}
+
+.navigation-menu a {
+color: #f2f2f2;
+text-decoration: none;
+}
+
+.users-table, 
+.users-table thead tr td,
+.users-table tbody tr td {
+    border: 1px solid gray;
+}
+
